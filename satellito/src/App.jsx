@@ -24,7 +24,7 @@ function App() {
   const predict = async () => {
     try {
       const response = await axios.post(
-        "http://127.0.0.1:5000/predict",
+        "https://your-backend-name.onrender.com/predict",
         {
           temperature,
           humidity,
