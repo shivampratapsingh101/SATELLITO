@@ -24,7 +24,7 @@ function App() {
   const predict = async () => {
     try {
       const response = await axios.post(
-        "https://your-backend-name.onrender.com/predict",
+        "https://https://satellito.onrender.com/predict",
         {
           temperature,
           humidity,
